@@ -1,4 +1,8 @@
-﻿using System.Web.Http;
+﻿using System.Linq;
+using System.Net.Http.Formatting;
+using System.Web.Http;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Serialization;
 using Owin;
 
 namespace SpaApp
@@ -17,6 +21,9 @@ namespace SpaApp
                 defaults: new { id = RouteParameter.Optional }
             );
 
+            var jsonFormatter = config.Formatters.OfType<JsonMediaTypeFormatter>().First();
+            jsonFormatter.SerializerSettings.Formatting = Formatting.Indented;
+            jsonFormatter.SerializerSettings.ContractResolver = new CamelCasePropertyNamesContractResolver();
         }
     }
 }
