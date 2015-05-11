@@ -6,6 +6,10 @@
   padding: 0px;
 }
 
+md-backdrop.md-sidenav-backdrop {
+    position: fixed !important;
+}
+
 /* Toolbar area */
 
 .menu {
