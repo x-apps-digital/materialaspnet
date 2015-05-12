@@ -566,8 +566,35 @@
     <Content Include="www\components\angular-material\modules\js\whiteframe\bower.json" />
     <Content Include="www\components\angular-material\package.json" />
     <Content Include="www\components\angular-material\README.md" />
+    <Content Include="www\components\ocLazyLoad\.bower.json" />
+    <Content Include="www\components\ocLazyLoad\bower.json" />
+    <Content Include="www\components\ocLazyLoad\CHANGELOG.md" />
+    <Content Include="www\components\ocLazyLoad\examples\complexExample\bower.json" />
+    <Content Include="www\components\ocLazyLoad\examples\complexExample\README.md" />
+    <Content Include="www\components\ocLazyLoad\LICENSE.md" />
+    <Content Include="www\components\ocLazyLoad\README.md" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="www\components\ocLazyLoad\dist\ocLazyLoad.js" />
+    <Content Include="www\components\ocLazyLoad\dist\ocLazyLoad.min.js" />
+    <Content Include="www\components\ocLazyLoad\examples\complexExample\index.html" />
+    <Content Include="www\components\ocLazyLoad\examples\complexExample\js\app.js" />
+    <Content Include="www\components\ocLazyLoad\examples\complexExample\js\AppCtrl.js" />
+    <Content Include="www\components\ocLazyLoad\examples\complexExample\js\gridModule.js" />
+    <Content Include="www\components\ocLazyLoad\examples\complexExample\partials\main.html" />
+    <Content Include="www\components\ocLazyLoad\examples\complexExample\partials\modal.html" />
+    <Content Include="www\components\ocLazyLoad\examples\requireJSExample\css\ng-grid.css" />
+    <Content Include="www\components\ocLazyLoad\examples\requireJSExample\index.html" />
+    <Content Include="www\components\ocLazyLoad\examples\requireJSExample\js\angular.min.js" />
+    <Content Include="www\components\ocLazyLoad\examples\requireJSExample\js\jquery.js" />
+    <Content Include="www\components\ocLazyLoad\examples\requireJSExample\js\lazymodule.js" />
+    <Content Include="www\components\ocLazyLoad\examples\requireJSExample\js\main.js" />
+    <Content Include="www\components\ocLazyLoad\examples\requireJSExample\js\ng-grid-2.0.11.debug.js" />
+    <Content Include="www\components\ocLazyLoad\examples\requireJSExample\js\require.js" />
+    <Content Include="www\components\ocLazyLoad\examples\requireJSExample\js\testmodule.js" />
+    <Content Include="www\components\ocLazyLoad\examples\requireJSExample\partials\grid.html" />
+    <Content Include="www\components\ocLazyLoad\examples\simpleExample\index.html" />
+    <Content Include="www\components\ocLazyLoad\examples\simpleExample\js\testApp.js" />
     <Content Include="www\index.html" />
     <Content Include="Web.config" />
   </ItemGroup>
